@@ -40,14 +40,10 @@ plugins:
 sass:
   quiet_deps: true
 
-include: ['sp1920', 'sp2021', 'sp2122', 'sp2223']
+include: ['sp2021', 'sp2122', 'sp2223']
 
 
 collections:
-  # AA 203 file locations.
-  sp1920:
-    output: false
-    permalink: /:collection/:title/
   sp2021:
     output: false
     permalink: /:collection/:title/
