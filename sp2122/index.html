@@ -1,0 +1,250 @@
+---
+title: Home
+permalink: /sp2122/
+group: "sp2122"
+order: 1
+---
+<!DOCTYPE html>
+<html>
+{% include aa203_head.html %}
+<body id="page-top" class="index">
+  {% include aa203_navbar.html group="sp2122" %}
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h4>   </h4>
+          <h1>AA 203: Optimal and Learning-Based Control</h1>
+          <h4>Spring 2022</h4>
+        </div>
+      </div>
+      <!-- <div class="row text-center">
+        <img id="aa203-banner-image" src="/img/aa203/banner-small.png">
+      </div> -->
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Course Description</h3>
+          <p>Optimal control solution techniques for systems with known and unknown dynamics. Dynamic programming, Hamilton-Jacobi reachability, and direct and indirect methods for trajectory optimization. Introduction to model predictive control. Adaptive control, model-based and model-free reinforcement learning, and connections between modern reinforcement learning and fundamental optimal control ideas.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Instructors</h3>
+          <table class="aa203_people">
+            <tr>
+              <th>
+                <a href="https://stanfordasl.github.io/people/edward-schmerling/"><img class="aa203_headshot" src="https://stanfordasl.github.io/img/people/EdwardSchmerling.png"></a>
+                <a href="https://stanfordasl.github.io/people/edward-schmerling/">Ed Schmerling</a>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Course Assistants</h3>
+          <table class="aa203_people">
+            <tr>
+              <th>
+                <a href="https://stanfordasl.github.io/people/spencer-richards/"><img class="aa203_headshot" src="https://stanfordasl.github.io/img/people/SpencerRichards.jpg"></a>
+                <a href="https://stanfordasl.github.io/people/spencer-richards/">Spencer M. Richards</a>
+              </th>
+              <th>
+                <a href="https://stanfordasl.github.io/people/devansh-jalota/"><img class="aa203_headshot" src="https://stanfordasl.github.io/img/people/DevanshJalota.jpg"></a>
+                <a href="https://stanfordasl.github.io/people/devansh-jalota/">Devansh Jalota</a>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Meeting Times</h3>
+          <p>Lectures meet on Mondays and Wednesdays from 9:45am to 11:15am in Skilling Auditorium; lecture recordings will be available at the class <a href="https://canvas.stanford.edu/courses/151934">canvas site</a>.</p>
+          <p>Dr. Schmerling's office hours are on Mondays 1:00pm to 2:00pm (course material) and Wednesdays 4:00pm to 5:00pm (project discussion) in Durand 217, and by appointment.</p>
+          <p>Devansh's office hours are on Tuesdays 5:00pm to 6:00pm (Zoom) and Fridays 4:00pm to 5:00pm (Durand 210 and Zoom).</p>
+          <p>Spencer's office hours are on Thursdays 8:00am to 10:00am (Zoom), and by appointment.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Syllabus</h3>
+          <p>The class syllabus can be found <a href="pdfs/AA203_Syllabus_2022.pdf">here</a>.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Schedule</h3>
+          <p>Subject to change. An evolving set of partial course notes is available <a href="https://github.com/StanfordASL/AA203-Notes">here</a>. Corresponding lecture slides will be uploaded before each class period.</p>
+          <style type="text/css">
+          .tg  {border-collapse:collapse;border-spacing:0;}
+          .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+          .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+          .tg .tg-vnl4{font-family:"Trebuchet MS", Helvetica, sans-serif !important;;border-color:inherit;text-align:left;vertical-align:top}
+          .tg .tg-2g2i{font-family:"Trebuchet MS", Helvetica, sans-serif !important;;border-color:inherit;text-align:center;vertical-align:top}
+          </style>
+          <table class="tg">
+            <tr>
+              <th class="tg-2g2i">Week</th>
+              <th class="tg-vnl4">Topic</th>
+              <th class="tg-vnl4">Lecture Slides</th>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">1</td>
+              <td class="tg-vnl4">
+              Introduction; control, stability, and metrics
+              <br>Introduction to learning; system identification and adaptive control
+              <br> Recitation: Automatic differentiation (autodiff) with JAX
+              <br><span style="font-style:italic">Monday: HW0 (ungraded) out</span>
+              </td>
+              <td class="tg-vnl4">
+                <a href="pdfs/lecture/lecture_1.pdf">Lecture 1</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-1">Code</a>
+              <br>
+                <a href="pdfs/lecture/lecture_2.pdf">Lecture 2</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-2">Code</a>
+              <br>
+                <a href="pdfs/lecture/autodiff_with_jax.pdf">Recitation 1</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Recitation-1">Code</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">2</td>
+              <td class="tg-vnl4">
+              Nonlinear optimization theory
+              <br> Calculus of variations
+              <br> Recitation: Convex optimization with CVXPY
+              <br><span style="font-style:italic">Monday: HW1 out</span>
+              </td>
+              <td class="tg-vnl4">
+              <a href="pdfs/lecture/lecture_3.pdf">Lecture 3</a>;
+              <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-3">Code</a>
+              <br> <a href="pdfs/lecture/lecture_4.pdf">Lecture 4</a>
+              <br> <a href='pdfs/lecture/convex_optmization_recitation2.pdf'>Recitation 2</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">3</td>
+              <td class="tg-vnl4">
+              Indirect methods for optimal control
+              <br> Pontryagin's maximum principle; introduction to dynamic programming
+              <br> Recitation: Regression models
+              <br><span style="font-style:italic">Friday: project proposal due</span>
+              </td>
+              <td class="tg-vnl4">
+              <a href="pdfs/lecture/lecture_5.pdf">Lecture 5</a>;
+              <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-5">Code</a>
+              <br> <a href="pdfs/lecture/lecture_6.pdf">Lecture 6</a>
+              <br> <a href='pdfs/lecture/regression_rec3.pdf'>Recitation 3</a>
+              <!-- <br> <a href="pdfs/lecture/recitation_2.pdf">Recitation 2</a>; -->
+              <!-- <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Recitation-2">Code</a> -->
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">4</td>
+              <td class="tg-vnl4">
+              Discrete LQR, stochastic DP, value iteration, policy iteration
+              <br> Introduction to reinforcement learning, dual control, LQG
+              <br> Recitation: Training neural networks with JAX
+              <br><span style="font-style:italic">Monday: HW1 due, HW2 out</span>
+              </td>
+              <td class="tg-vnl4">
+              <a href="pdfs/lecture/lecture_7.pdf">Lecture 7</a>;
+              <a href="https://docs.google.com/spreadsheets/d/1iH8bVbxrTb6tqpZVz26vhWp2rRB7f9h_WdHU4ceEnWI/edit?usp=sharing">Code</a>
+              <br> <a href="pdfs/lecture/lecture_8.pdf">Lecture 8</a>
+              <br> <a href="https://github.com/StanfordASL/AA203-Examples/blob/master/Recitation-4/Training%20Neural%20Networks%20with%20JAX.ipynb">Recitation 4</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">5</td>
+              <td class="tg-vnl4">
+              Nonlinearity; tracking LQR
+              <br> Iterative LQR, differential dynamic programming (DDP)
+              <!-- <br> Recitation: Training neural networks and PyTorch -->
+              </td>
+              <td class="tg-vnl4">
+              <a href="pdfs/lecture/lectures_9_and_10.pdf">Lecture 9</a>;
+              <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-10">Code</a>
+              <br> <a href="pdfs/lecture/lectures_9_and_10.pdf">Lecture 10</a>;
+              <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-10">Code</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">6</td>
+              <td class="tg-vnl4">
+              Direct methods for optimal control; sequential convex programming
+              <br> HJB, HJI, reachability analysis
+              <br><span style="font-style:italic">Monday: HW2 due</span>
+              </td>
+              <td class="tg-vnl4">
+                <a href="pdfs/lecture/lecture_11.pdf">Lecture 11</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-11">Code</a>
+                <br> <a href="pdfs/lecture/lecture_12.pdf">Lecture 12</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-12">Code</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">7</td>
+              <td class="tg-vnl4">
+              Intro to model predictive control
+              <br> Feasibility and stability of MPC
+              <br><span style="font-style:italic">Monday: project midterm report due; Tuesday: HW3 out</span>
+              </td>
+              <td class="tg-vnl4">
+                <a href="pdfs/lecture/lecture_13.pdf">Lecture 13</a>
+                <br> <a href="pdfs/lecture/lectures_14_and_15.pdf">Lecture 14</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">8</td>
+              <td class="tg-vnl4">
+              MPC implementation considerations, robust MPC
+              <br> Adaptive and learning MPC
+              <td class="tg-vnl4">
+                <a href="pdfs/lecture/lectures_14_and_15.pdf">Lecture 15</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-15">Code</a>
+                <br> <a href="pdfs/lecture/lecture_16.pdf">Lecture 16</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">9</td>
+              <td class="tg-vnl4">
+              Model-based RL
+              <br> Model-free RL: policy gradient and actor critic
+              <br><span style="font-style:italic">Tuesday: HW3 due; Wednesday: HW4 out</span>
+              </td>
+              <td class="tg-vnl4">
+                <a href="pdfs/lecture/lecture_17.pdf">Lecture 17</a>
+                <br> <a href="pdfs/lecture/lecture_18.pdf">Lecture 18</a>;
+                <a href="https://github.com/StanfordASL/AA203-Examples/tree/2022/Lecture-18">Code</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-2g2i">10</td>
+              <td class="tg-vnl4">
+              <span style="font-style:italic">No lecture (Memorial Day)</span>
+              <br> Model-based policy learning, wrap up, recent work, and future directions
+              <br><span style="font-style:italic">Wednesday: HW4 due, project video presentation and final report due</span>
+              </td>
+              <td class="tg-vnl4">
+                <br>
+                <a href="pdfs/lecture/lecture_19.pdf">Lecture 19</a>
+              </td>
+            </tr>
+
+          </table>
+
+        </div>
+      </div>
+      <p>Follow <a href="{{site.baseurl}}/sp2021/">this link</a> to access the course website for the previous edition of Optimal and Learning-Based Control.</p>
+    </div>
+  </header>
+  {% include javascript.html %}
+  {% include footer.html %}
+</body>
+</html>
