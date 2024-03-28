@@ -16,7 +16,7 @@ order: 1
       <div class="row">
         <div class="col-md-12 text-center">
           <h1>AA 203: Optimal and Learning-Based Control</h1>
-          <h4>Spring 2023</h4>
+          <h4>Spring 2024</h4>
         </div>
       </div>
 
@@ -78,13 +78,14 @@ order: 1
         <div class="col-md-12">
           <h3>Meeting Times</h3>
           <p>Lectures are held on Mondays and Wednesdays from 1:30pm to 2:50pm in <a
-              href="https://campus-map.stanford.edu/?srch=Thornton+102">Thornton 102</a>.</p>
-          <p>Lecture recordings will be available on <a href="https://canvas.stanford.edu/courses/171491">Canvas</a>.
+              href="http://campus-map.stanford.edu/?srch=Huang+Engineering+Center+18">Huang Engineering Center 18</a>.
+          </p>
+          <p>Lecture recordings will be available on <a href="https://canvas.stanford.edu/courses/188274">Canvas</a>.
           </p>
           <p>Recitations are held on Fridays from 9:00am to 10:30am for the first four weeks of the quarter. Recitations
             are hybrid sessions, held both in <a
               href="https://campus-map.stanford.edu/?srch=Durand%20Building#">Durand</a> 023 Videoconference Room and on
-            Zoom (link on <a href="https://canvas.stanford.edu/courses/171491">Canvas</a>).</p>
+            Zoom (link on <a href="https://canvas.stanford.edu/courses/188274">Canvas</a>).</p>
         </div>
       </div>
 
@@ -167,9 +168,9 @@ order: 1
                 1
               </td>
               <td class="tg-vnl4">
-                Introduction; feedback, stability, optimal control problems
+                Introduction; control, stability, and metrics
                 <br>
-                Nonlinear optimization theory
+                Optimization theory
                 <br>
                 Recitation: Automatic differentiation (AD) with JAX
                 <br>
@@ -192,9 +193,9 @@ order: 1
                 2
               </td>
               <td class="tg-vnl4">
-                Pontryagin's maximum principle (PMP) and indirect methods
+                Calculus of variations
                 <br>
-                Direct methods: Multiple shooting, collocation, and SCP
+                Indirect methods for optimal control
                 <br>
                 Recitation: Convex optimization with CVXPY
                 <br>
@@ -209,7 +210,6 @@ order: 1
                   href="https://colab.research.google.com/github/StanfordASL/AA203-Examples/blob/master/Zermelo's%20Problem.ipynb">Code</a>
                 <br>
                 <a href='pdfs/lecture/convex_optmization_recitation2.pdf'>Recitation 2</a>
-                <!-- <a href='pdfs/lecture/convex_optmization_recitation2.pdf'>Recitation 2</a> -->
               </td>
             </tr>
             <tr>
@@ -217,9 +217,9 @@ order: 1
                 3
               </td>
               <td class="tg-vnl4">
-                Dynamic programming (DP), discrete-time LQR
+                Pontryagin's maximum principle and continuous-time LQR
                 <br>
-                Stochastic DP, value iteration, policy iteration
+                Direct methods
                 <br>
                 Recitation: Regression models
                 <br><span style="font-style:italic">Friday: Project proposal due</span>
@@ -241,9 +241,9 @@ order: 1
                 4
               </td>
               <td class="tg-vnl4">
-                Nonlinear LQR for tracking, iLQR, DDP
+                Dynamic programming, discrete LQR
                 <br>
-                The Hamilton-Jacobi-Bellman (HJB) equation, LQR in continuous-time
+                Nonlinear LQR for tracking and trajectory generation
                 <br>
                 Recitation: Training neural networks with JAX
                 <br>
@@ -266,9 +266,9 @@ order: 1
                 5
               </td>
               <td class="tg-vnl4">
-                System identification and adaptive control
+                Stochastic DP, value iteration, policy iteration
                 <br>
-                Introduction to RL and Markov decision processes (MDPs)
+                Introduction to RL, learning settings
               </td>
               <td class="tg-vnl4">
                 <a href="pdfs/lecture/lecture_9.pdf">Lecture 9</a>
@@ -284,9 +284,9 @@ order: 1
                 6
               </td>
               <td class="tg-vnl4">
-                MPC I: Introduction
+                HJB, HJI, and reachability analysis
                 <br>
-                MPC II: Feasibility and stability
+                MPC I: Introduction
                 <br>
                 <span style="font-style:italic">Monday: HW2 due, HW3 released</span>
               </td>
@@ -304,9 +304,9 @@ order: 1
                 7
               </td>
               <td class="tg-vnl4">
-                MPC III: Robustness
+                MPC II: Feasibility and stability
                 <br>
-                MPC IV: Adaptation
+                MPC III: Robustness
                 <br>
                 <span style="font-style:italic">Monday: Project midterm report due</span>
               </td>
@@ -321,9 +321,9 @@ order: 1
                 8
               </td>
               <td class="tg-vnl4">
-                RL I: Model-free RL - Value-based methods
+                Intro to learning, sys ID, adaptive control
                 <br>
-                RL II: Model-free RL - Policy optimization
+                RL I: Model-free methods
                 <br>
                 <span style="font-style:italic">Monday: HW3 due, HW4 released</span>
               <td class="tg-vnl4">
@@ -340,7 +340,7 @@ order: 1
               <td class="tg-vnl4">
                 <span style="font-style:italic">No lecture (Memorial Day)</span>
                 <br>
-                RL III: Model-based RL
+                RL II: Model-based methods
               </td>
               <td class="tg-vnl4">
                 <!-- <a href="pdfs/lecture/lecture_17.pdf">Lecture 17</a> -->
@@ -354,9 +354,9 @@ order: 1
                 10
               </td>
               <td class="tg-vnl4">
-                RL IV: Model-based policy optimization
+                RL III
                 <br>
-                Course summary, recent work, future directions
+                RL IV and conclusions
                 <br>
                 <span style="font-style:italic">Monday: HW4 due</span>
                 <br>
@@ -375,7 +375,7 @@ order: 1
 
         </div>
       </div>
-      <p>Follow <a href="{{site.baseurl}}/sp2122/">this link</a> to access the course website for the previous edition
+      <p>Follow <a href="{{site.baseurl}}/sp2223/">this link</a> to access the course website for the previous edition
         of Optimal and Learning-Based Control.</p>
     </div>
   </header>
