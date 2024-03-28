@@ -7,6 +7,7 @@ order: 2
 <!DOCTYPE html>
 <html>
 {% include aa203_head.html %}
+
 <body id="page-top" class="index">
   {% include aa203_navbar.html group="sp2223" %}
   <header>
@@ -29,11 +30,13 @@ order: 2
               <h4 class="aa203-homework-posted-date">Posted on {{ hwk.posted_date | date: "%B %e" }}</h4>
             </div>
             <div class="col-md-4">
-              {% if hwk.due_date %}<h4 class="aa203-homework-due-date">Due at {{ hwk.due_date | date: "%l:%M%P on %B %e" }}</h4>{% endif %}
+              {% if hwk.due_date %}<h4 class="aa203-homework-due-date">Due at {{ hwk.due_date | date: "%l:%M%P on %B %e"
+                }}</h4>{% endif %}
             </div>
           </div>
           <p>{{ hwk.content }}</p>
-          <a href="{{ hwk.pdf_link }}">[pdf]</a> {% if hwk.code_link %}<a href="{{ hwk.code_link }}">[code]</a>{% endif %} {% if hwk.source_link %}<a href="{{ hwk.source_link }}">[tex]</a>{% endif %}
+          <a href="{{ hwk.pdf_link }}">[pdf]</a> {% if hwk.code_link %}<a href="{{ hwk.code_link }}">[code]</a>{% endif
+          %} {% if hwk.source_link %}<a href="{{ hwk.source_link }}">[tex]</a>{% endif %}
         </div>
       </div>
       {% endfor %}
@@ -42,4 +45,5 @@ order: 2
   {% include javascript.html %}
   {% include footer.html %}
 </body>
+
 </html>
