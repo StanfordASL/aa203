@@ -40,7 +40,7 @@ plugins:
 sass:
   quiet_deps: true
 
-include: ['sp2021', 'sp2122', 'sp2223']
+include: ['sp2021', 'sp2122', 'sp2223', "sp2324"]
 
 
 collections:
@@ -51,5 +51,8 @@ collections:
     output: false
     permalink: /:collection/:title/
   sp2223:
+    output: false
+    permalink: /:collection/:title/
+  sp2324:
     output: false
     permalink: /:collection/:title/
