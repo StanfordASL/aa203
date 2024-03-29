@@ -2,7 +2,7 @@
 md_group:       "assignments"
 title:          "Homework 0"
 seq_number:     0
-posted_date:    2023-04-03
+posted_date:    2024-03-29
 # due_date:       2023-04-03  23:59:00
 pdf_link:       "pdfs/homework/hw0.pdf"
 code_link:      "https://github.com/StanfordASL/AA203-Homework/tree/master"
