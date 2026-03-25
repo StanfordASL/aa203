@@ -31,3 +31,8 @@ end
 
 # Needed with Ruby3. See https://github.com/jekyll/jekyll/issues/8523
 gem "webrick"
+
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'mutex_m'
