@@ -36,3 +36,5 @@ gem 'csv'
 gem 'base64'
 gem 'bigdecimal'
 gem 'mutex_m'
+
+gem "sass-embedded", "~> 1.89"
